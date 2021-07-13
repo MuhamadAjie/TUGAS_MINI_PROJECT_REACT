@@ -10,10 +10,23 @@ function App() {
 
   const [isUpdate, setIsUpdate] = useState({id: null, status: false});
 
+  const [filter, setFilter] = useState('');
+
   const [formData, setFormData] = useState({
     judul: "",
     text: "",
     tanggal: formatTime(),
+    search: ""
+  });
+
+  const Search = (event) =>{
+    setFilter(event.target.value);
+  }
+  let data = [...titles];
+  let dataSearch = data.filter(item =>{
+    return Object.keys(item).some(key =>
+        item[key].toString().toLowerCase().includes(filter.toString().toLowerCase())
+      )
   });
 
   const dateTime = new Date();
@@ -108,8 +121,9 @@ function App() {
               placeholder="Search Your Title..."
               className="mr-sm-2"
               aria-label="Search"
+              value={filter}
+              onChange={Search}
             />
-            <Button style={{marginLeft: 10}} variant="success outline-success">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Navbar>
@@ -125,7 +139,7 @@ function App() {
           <Col sm={5}>
             <Form onSubmit={handleSubmit}>
               <Form.Group>
-                <Form.Label className="fw-bold">Masukkan Judul</Form.Label>
+                <Form.Label className="fw-bold">Masukan Judul</Form.Label>
                 <Form.Control type="text" onChange={handleChange} value={formData.judul} name="judul" />
               </Form.Group>
               <Form.Group className="mt-3">
@@ -141,7 +155,7 @@ function App() {
           </Col>
         </Row>
         <br/><br/>
-        <Note handleDelete={handleDelete} handleEdit={handleEdit} data={titles} />
+        <Note handleDelete={handleDelete} handleEdit={handleEdit} data={dataSearch} />
         <br/><br/>
       </Container>
     </div>

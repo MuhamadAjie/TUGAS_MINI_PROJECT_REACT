@@ -1,0 +1,28 @@
+{
+  "notes": [
+    {
+      "judul": "Belajar react native",
+      "text": "Belajar react js lebih mudah dengan tutorial lengkap dan dari tutor yang berpengalaman 10th",
+      "tanggal": "July 8, 2021, 10:48 AM",
+      "id": 2
+    },
+    {
+      "judul": "Belajar react js",
+      "text": "Tutor handal dan berpengalaman dalam bidangnya, jadi aman dan terpercaya ayo semangat",
+      "tanggal": "July 8, 2021, 10:49 AM",
+      "id": "e6156628190"
+    },
+    {
+      "judul": "Belajar PHP Basic",
+      "text": "PHP adalah bahasa yang cukup powerfull",
+      "tanggal": "July 8, 2021, 2:42 PM",
+      "id": "fa8e308770e"
+    },
+    {
+      "id": "f51fa24c6d5",
+      "judul": "Belajar pemrograman",
+      "text": "Dari pemula hingga mahir",
+      "tanggal": "July 8, 2021, 2:43 PM"
+    }
+  ]
+}

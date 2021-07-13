@@ -1,28 +1,34 @@
 {
   "notes": [
     {
-      "judul": "Belajar react native",
+      "judul": "Belajar React Native",
       "text": "Belajar react js lebih mudah dengan tutorial lengkap dan dari tutor yang berpengalaman 10th",
-      "tanggal": "July 8, 2021, 10:48 AM",
+      "tanggal": "July 12, 2021, 11:08 AM",
       "id": 2
     },
     {
-      "judul": "Belajar react js",
-      "text": "Tutor handal dan berpengalaman dalam bidangnya, jadi aman dan terpercaya ayo semangat",
-      "tanggal": "July 8, 2021, 10:49 AM",
+      "judul": "Belajar React JS",
+      "text": "Tutor handal dan berpengalaman dalam bidangnya, jadi aman dan terpercaya ayo semangat belajarnya",
+      "tanggal": "July 12, 2021, 11:08 AM",
       "id": "e6156628190"
     },
     {
-      "judul": "Belajar pemrograman",
-      "text": "Belajar bahasa masa depan dari sekarang",
-      "tanggal": "July 8, 2021, 10:50 AM",
-      "id": "b8e8cf884c5"
+      "judul": "Belajar PHP Basic",
+      "text": "PHP adalah bahasa yang cukup powerfull",
+      "tanggal": "July 8, 2021, 2:42 PM",
+      "id": "fa8e308770e"
     },
     {
-      "id": "fa8e308770e",
-      "judul": "Belajar PHP",
-      "text": "PHP adalah bahasa yang cukup powerfull",
-      "tanggal": "July 8, 2021, 1:18 PM"
+      "judul": "Belajar di Niomic",
+      "text": "Di bimbing mentor handal dan berpengalaman juga terpercaya",
+      "tanggal": "July 12, 2021, 11:03 AM",
+      "id": "0882440336f"
+    },
+    {
+      "id": "97186a410bc",
+      "judul": "Belajar Pemrograman",
+      "text": "Ayo Belajar bahasa masa depan",
+      "tanggal": "July 12, 2021, 11:08 AM"
     }
   ]
 }
